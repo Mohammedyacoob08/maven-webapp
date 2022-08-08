@@ -1,5 +1,5 @@
 
-	- hosts: deploy
+- hosts: deploy
   tasks:
    - name: create new container
      shell: docker container run -itd --name mydockercontainer -p 8081:8080 indium387/nadeem:1.1
